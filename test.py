@@ -14,8 +14,8 @@ from webdriver_manager.opera import OperaDriverManager
 
 
 def login(subject):
-    email='#email'
-    password='#Password'
+    email='#email'		#Replace with Email here
+    password='#Password'	#Replace with Password here
     opt = Options()
     opt.add_argument("--disable-infobars")
     opt.add_argument("start-maximized")
